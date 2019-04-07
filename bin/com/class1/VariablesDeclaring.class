@@ -1,0 +1,28 @@
+   Important rules for switch statements :
+?
+Duplicate case values are not allowed.
+?
+The value for a case must be the same data 
+type as the variable in the switch.
+?
+The break statement is used inside the 
+switch to terminate a statement sequence.
+?
+The break statement is optional. If omitted, 
+execution will continue on into the next 
+case.
+?
+The default statement is optional, and can 
+appear anywhere inside the switch block. 
+
+Switch Statement 
+A switch statement allows a variable to be tested for equality
+ against a list of values. Each value is called a case, 
+and the variable being switched on is checked for each case
+
+
+Do switch statements need break?
+A statement in the switch block can be labeled with one or more
+ case or default labels. The switch statement evaluates its expression, 
+then executes all statements that follow the matching case label. ... 
+Technically, the final break is not required because flow falls out of the switch statement.
