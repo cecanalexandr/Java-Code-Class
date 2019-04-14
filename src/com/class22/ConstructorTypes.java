@@ -2,7 +2,7 @@ package com.class22;
 
 public class ConstructorTypes {
 
-  ConstructorTypes(){
+   ConstructorTypes(){
      System.out.println("I am a constructor with no parameters");
   }
     
