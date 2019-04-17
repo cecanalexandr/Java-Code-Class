@@ -33,7 +33,7 @@ public class Computer {
 	}
     
     void watchMovie() {
-    	System.out.println("We can watch movie on a computer "+brand);
+    	System.out.println(brand);
     }
 	
 	void doJavaCoding() {
